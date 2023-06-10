@@ -1,0 +1,72 @@
+@import "./utils/global.scss";
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/GG-INTERVIEW-BUENOS-AIRES-STENCIL.webp);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+}
+main{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3em;
+}
+h1 {    
+    font-family: 'Rock Salt', cursive;
+    margin-bottom: 1em;
+    text-align: center;
+}
+h3{
+    margin:15px;
+    text-align: center;
+}
+p{
+    margin: 15px auto;
+}
+#img-div{
+    margin-bottom: 2em;
+}
+#image{
+    height: auto;
+    width: 80vw;
+}
+#body-image{
+    width: 60%;
+    max-width: 350px;
+    &:hover{
+        box-shadow: 0px -1px 10px 5px #fc2e2e;
+    }
+}
+.body-image__1{
+    float: right;
+    margin: 0 0 15px 15px;
+}
+.more-info{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    a{
+        color: aliceblue;
+        &:hover{
+            color: #fc2e2e;
+        }
+    }
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1% ;
+    box-shadow: 0px -1px 10px 5px #fc2e2e;
+    padding: 1em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+
+}
+@media screen and (min-width: 768px) {
+#tribute-info{
+    padding: 3em;
+}
+    
+}
